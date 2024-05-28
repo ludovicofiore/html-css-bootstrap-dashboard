@@ -25,10 +25,27 @@ body {
     height: calc(100vh - 70px);
 }
 
+#bar-content {
+    /* debug */
+    width: 100%;
+    min-height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
 /* REGOLE CONTENUTO CENTRALE */
 #central-content {
     /* DEBUG */
     width: 100%;
-    min-height: 500px;
+    height: calc(100vh - 70px);
     background-color: yellow;
+}
+
+/* regole sezione azzurra */
+.ms_box {
+    /* debug */
+    width: 100%;
+    min-height: 150px;
+    background-color: blueviolet;
+    border: 1px solid black;
 }
