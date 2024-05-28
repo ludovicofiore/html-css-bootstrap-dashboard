@@ -46,17 +46,17 @@ body {
     border-left: 0;
 }
 
-.nav {
+header .nav {
     --bs-nav-link-padding-y: 0;
     --bs-nav-link-padding-x: 0;
     gap: 25px;
 }
 
-.nav-link {
+header .nav-link {
     color: #5b5858;
 }
 
-.btn {
+header .btn {
     --bs-btn-padding-x: 0;
     --bs-btn-padding-y: 0;
 }
@@ -81,16 +81,21 @@ body {
 /* REGOLE BARRA SINISTRA */
 #bar-bg {
     width: 100%;
-    background-color: blue;
+    background-color: #051e34;
     height: calc(100vh - 70px);
+    background-image: url(../img/sidebar-bg.png);
 }
 
-#bar-content {
-    /* debug */
-    width: 100%;
-    min-height: 200px;
-    background-color: orange;
-    border: 1px solid black;
+.bar-content {
+    text-align: center;
+}
+
+.bar-content .nav-link {
+    color: white;
+}
+
+.bar-content .md_no_display {
+    padding-left: 20px;
 }
 
 /* REGOLE CONTENUTO CENTRALE */
