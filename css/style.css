@@ -143,6 +143,15 @@ header .btn {
     content: none;
 }
 
+/* offcanvas */
+.offcanvas.offcanvas-end {
+    width: 700px;
+}
+
+.form-control {
+    background-color: white;
+}
+
 /* regole contenuto sinistra */
 .large_box {
     /* debug */
