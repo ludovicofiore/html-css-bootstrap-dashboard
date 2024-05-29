@@ -9,6 +9,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+#ms_wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
 .ms_a {
     text-decoration: none;
     display: inline-block;
@@ -117,7 +122,7 @@ header .btn {
     /* DEBUG */
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: yellow;
+    /* background-color: yellow; */
     overflow-y: auto;
 }
 
@@ -150,10 +155,9 @@ header .btn {
 
 
 /* regole contenuto sinistra */
-.large_box {
-    /* debug */
-    width: 100%;
-    min-height: 250px;
+
+.bg-light {
+    --bs-bg-opacity: 0;
 }
 
 /* regole table */
