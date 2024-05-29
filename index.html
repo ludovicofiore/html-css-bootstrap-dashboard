@@ -179,7 +179,7 @@
 
 
                             <!-- terza col -->
-                            <div class="col-12 col-md-3 pt-4">
+                            <div class="col-12 col-md-3 pt-4 pb-2">
 
                                 <span>Nuovo studente</span>
                                 <span><button type="button" class="btn btn-outline-light ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button></span>
@@ -251,6 +251,14 @@
                                               <label for="inputZip" class="form-label">CAP</label>
                                               <input type="text" class="form-control" id="inputZip">
                                             </div>
+
+                                            <!-- scegli file -->
+                                            <div class="col-12">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+
+                                            <!-- checkbox -->
                                             <div class="col-12">
                                               <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -259,8 +267,11 @@
                                                 </label>
                                               </div>
                                             </div>
+
+                                            <!-- bottoni -->
                                             <div class="col-12">
-                                              <button type="submit" class="btn btn-primary">Sign in</button>
+                                              <button type="submit" class="btn btn-primary">Salva</button>
+                                              <button type="button" class="btn btn-warning">Svuota</button>
                                             </div>
                                           </form>
                                       

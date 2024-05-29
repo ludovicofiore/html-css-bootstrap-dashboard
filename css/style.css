@@ -121,14 +121,8 @@ header .btn {
     overflow-y: auto;
 }
 
+
 /* regole sezione azzurra */
-.ms_box {
-    /* debug */
-    width: 100%;
-    min-height: 150px;
-    background-color: blueviolet;
-    border: 1px solid black;
-}
 
 /* breadcrumbs */
 .text-bg {
@@ -150,7 +144,10 @@ header .btn {
 
 .form-control {
     background-color: white;
+    border-left: 1px solid #ced4da;
 }
+
+
 
 /* regole contenuto sinistra */
 .large_box {
