@@ -154,9 +154,25 @@ header .btn {
     /* debug */
     width: 100%;
     min-height: 250px;
-    background-color: bisque;
-    border: 1px solid black;
 }
+
+/* regole table */
+ .logo_class {
+    width: 30px;
+    display: inline-block;
+    margin-right: 7px;
+ }
+
+ .logo_class img {
+    max-width: 100%;
+    border-radius: 50%;
+ }
+
+ @media screen and (max-width:767px) {
+    .sm_no_display {
+        display: none;
+    }
+ }
 
 
 /* regole contenuto destra */
