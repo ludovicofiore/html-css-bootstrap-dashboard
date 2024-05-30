@@ -24,7 +24,7 @@
 
     <!-- header fisso -->
     <header class="container-fluid px-0">
-        <div class="row">
+        <div class="row mx-0">
 
             <div class="col-12">
                 <div id="header-content">
@@ -35,11 +35,11 @@
 
                             <!-- logo -->
                             <div class="col-1 col-lg-2 h-100 d-flex align-items-center">
-                                <a class="ms_a lg_no_display">
+                                <a class="ms_a d-lg-none">
                                     <img class="img-fluid" src="img/mobile-logo.png" alt="logo piccolo">
                                 </a>
 
-                                <a href="#" class="ms_a md_no_display">
+                                <a href="#" class="ms_a d-none d-lg-block">
                                     <img class="img-fluid" src="img/logo.svg" alt="logo grande">
                                 </a>
 
@@ -57,13 +57,13 @@
                             <!-- nav destra -->
                             <div class="col-1 col-lg-2">
                                 <ul class="nav justify-content-end">
-                                    <li class="nav-item md_no_display">
+                                    <li class="nav-item d-none d-lg-block">
                                         <a class="nav-link" href="#"><i class="fa-solid fa-list-ul"></i></a>
                                     </li>
-                                    <li class="nav-item md_no_display">
+                                    <li class="nav-item d-none d-lg-block">
                                         <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
                                     </li>
-                                    <li class="nav-item md_no_display">
+                                    <li class="nav-item d-none d-lg-block">
                                         <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                                     </li>
                                     <!-- dropdown -->
@@ -99,7 +99,7 @@
     <!-- parte centrale -->
     <div class="container-fluid px-0">
 
-        <div class="row gx-0">
+        <div class="row gx-0 mx-0">
 
             <!-- barra sinistra -->
             <div class="col-1 col-lg-2">
@@ -115,13 +115,13 @@
 
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="fa-solid fa-house"></i><span class="md_no_display">Home</span></a>
+                                            <a class="nav-link" href="#"><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline-block">Home</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="fa-solid fa-chart-simple"></i><span class="md_no_display">Stats</span></a>
+                                            <a class="nav-link" href="#"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-inline-block">Stats</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="fa-solid fa-signal"></i><span class="md_no_display">Signals</span></a>
+                                            <a class="nav-link" href="#"><i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline-block">Signals</span></a>
                                         </li>
                                     </ul>
 
@@ -131,7 +131,7 @@
                             <!-- barra sinistra inferiore -->
                             <div class="col-12 pb-4">
                                 <div class="bar-content">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i><span class="md_no_display">Admin</span></a>
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline-block">Admin</span></a>
                                 </div>
                             </div>
                         </div>
@@ -164,10 +164,10 @@
                                 <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a class="ms_a badge rounded-pill text-bg">3 App</a></li>
-                                        <li class="breadcrumb-item md_no_display" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">Boolean app mobile</a></li>
-                                        <li class="breadcrumb-item no_divider md_no_display" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">Boolean web app</a></li>
-                                        <li class="breadcrumb-item no_divider md_no_display" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">Boolean blog app</a></li>
-                                        <li class="breadcrumb-item lg_no_display" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">+</a></li>
+                                        <li class="breadcrumb-item d-none d-lg-block" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">Boolean app mobile</a></li>
+                                        <li class="breadcrumb-item no_divider d-none d-lg-block" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">Boolean web app</a></li>
+                                        <li class="breadcrumb-item no_divider d-none d-lg-block" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">Boolean blog app</a></li>
+                                        <li class="breadcrumb-item d-lg-none" aria-current="page"> <a class="ms_a badge rounded-pill text-bg">+</a></li>
                                     </ol>
                                 </nav>
                                 
@@ -310,8 +310,8 @@
                                             <thead>
                                                 <tr>
                                                     <td class="w-50">Nome</td>
-                                                    <td class="sm_no_display">Data inizio</td>
-                                                    <td class="sm_no_display">ROI</td>
+                                                    <td class="d-none d-sm-table-cell">Data inizio</td>
+                                                    <td class="d-none d-sm-table-cell">ROI</td>
                                                     <td>Stato</td>
                                                     <td>Azioni</td>
                                                 </tr>
@@ -327,8 +327,8 @@
                                                         </div>
                                                         <span>Classe 75</span>
                                                     </td>
-                                                    <td class="sm_no_display">15 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">15 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -346,8 +346,8 @@
                                                         </div>
                                                         <span>Classe 76</span>
                                                     </td>
-                                                    <td class="sm_no_display">16 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">16 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -365,8 +365,8 @@
                                                         </div>
                                                         <span>Classe 77</span>
                                                     </td>
-                                                    <td class="sm_no_display">17 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">17 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-warning text-white">Process</span>
                                                     </td>
@@ -384,8 +384,8 @@
                                                         </div>
                                                         <span>Classe 78</span>
                                                     </td>
-                                                    <td class="sm_no_display">18 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">18 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -403,8 +403,8 @@
                                                         </div>
                                                         <span>Classe 79</span>
                                                     </td>
-                                                    <td class="sm_no_display">19 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">19 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-danger">Failed</span>
                                                     </td>
@@ -422,8 +422,8 @@
                                                         </div>
                                                         <span>Classe 80</span>
                                                     </td>
-                                                    <td class="sm_no_display">20 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">20 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -441,8 +441,8 @@
                                                         </div>
                                                         <span>Classe 81</span>
                                                     </td>
-                                                    <td class="sm_no_display">21 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">21 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-danger">Failed</span>
                                                     </td>
@@ -460,8 +460,8 @@
                                                         </div>
                                                         <span>Classe 82</span>
                                                     </td>
-                                                    <td class="sm_no_display">22 Febbraio 2021</td>
-                                                    <td class="sm_no_display">20%</td>
+                                                    <td class="d-none d-sm-table-cell">22 Febbraio 2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -553,7 +553,7 @@
                                     </ul>
                                 </div>
 
-                                <!-- uetnti attivi -->
+                                <!-- utenti attivi -->
                                 <div class="small_box border border-secondary rounded my-4">
 
                                     <div class="card m-3">

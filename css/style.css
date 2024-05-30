@@ -77,7 +77,7 @@ header .btn {
     background-color: rgb(194, 194, 194);
 }
 
-.bar-content .md_no_display {
+.bar-content .nav-link span {
     padding-left: 20px;
 }
 
@@ -123,35 +123,15 @@ header .btn {
 }
 
 /* regole table */
- .logo_class {
+.logo_class {
     width: 30px;
     display: inline-block;
     margin-right: 7px;
- }
+}
 
- .logo_class img {
+.logo_class img {
     max-width: 100%;
     border-radius: 50%;
- }
-
-
- /* MEDIA QUERY */
- @media screen and (max-width:991px) {
-    .md_no_display {
-        display: none;
-    }
-
 }
 
-@media screen and (min-width:992px) {
-    .lg_no_display {
-        display: none;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .sm_no_display {
-        display: none;
-    }
-}
 
